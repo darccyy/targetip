@@ -1,18 +1,20 @@
 {
   "name": "targetip",
+  "productName": "TargetIP",
   "version": "1.0.0",
-  "description": "Hacking program (satire)",
+  "description": "Hack any IP on local network",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "keywords": [],
-  "author": "",
+  "author": "darccyy",
   "license": "ISC",
   "dependencies": {
     "fnct": "^1.1.28"
   },
   "devDependencies": {
     "electron": "^11.1.1"
-  }
+  },
+  "satire": true
 }

@@ -1,2 +1,2 @@
 # TargetIP
-Hacking program (satire)
+Hack any IP on local network (satire)
