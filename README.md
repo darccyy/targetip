@@ -1,2 +1,2 @@
-# targetip
+# TargetIP
 Hacking program (satire)

@@ -1,0 +1,92 @@
+.drag-app {
+  -webkit-app-region: drag;
+}
+
+body.main {
+  height: calc(100vh - 20px);
+  margin: 0px;
+  background: linear-gradient(#445 0%, #334 100%);
+  border: 10px solid #223;
+
+  * {
+    font-family: 'Courier New',
+      Courier,
+      monospace;
+    font-weight: 600;
+    color: white;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  form {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10px;
+
+    section {
+      input {
+        font-size: 20px;
+        background-color: #2228;
+        border: none;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        padding: 5px;
+
+        &:focus {
+          background-color: #1118;
+        }
+      }
+    }
+
+    input {
+      border-radius: 5px;
+
+      &[type="submit"] {
+        font-size: 30px;
+        background-color: #DDDA;
+        color: black;
+        border: none;
+        cursor: pointer;
+
+        &:focus,
+        &:hover {
+          background-color: #CCCA;
+        }
+
+        &:active {
+          background-color: #AAAA;
+        }
+      }
+    }
+  }
+}
+
+body.hack {
+  background-color: black;
+  color: #0F0;
+  font-family: 'Courier New',
+    Courier,
+    monospace;
+  font-size: 16px;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+blink {
+  animation: blink-animation 1.2s steps(2, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+#error {
+  background-color: #F002;
+  color: #F33;
+}
