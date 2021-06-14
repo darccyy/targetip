@@ -1,7 +1,7 @@
 {
   "name": "targetip",
   "productName": "TargetIP",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hack any IP on local network",
   "main": "main.js",
   "scripts": {
